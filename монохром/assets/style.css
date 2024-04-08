@@ -1,0 +1,471 @@
+@import url("./font.css");
+@import url(./fonts/Manrope-Medium.ttf);
+@import url(./fonts/Manrope-Regular.ttf);
+*{
+    margin:0;
+    padding:0;
+    border:0;
+    text-decoration: none;
+    outline: none;
+    box-sizing: border-box;
+    font-family: "NeutralFaceRegular";
+    color: black;
+}
+.container{
+    width: 1180px;
+    margin: 0 auto;
+}
+.section-monochrome{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10px;
+}
+.section-monochrome .language{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+path {
+    fill:black;
+}
+.section-monochrome .language .fa-globe{
+    width: 15px;
+    height: 15px;
+    background-color: black;
+}
+.section-monochrome .language h6{
+    font-size: 14px;
+    margin-left: 10px;
+}
+.section-monochrome a{
+    font-size: 18px;
+}
+.section-monochrome .icons .fa-magnifying-glass{
+    width: 15px;
+    height: 15px;
+    color: black;
+    fill: black;
+    background-color: black;
+}
+.line{
+    border-bottom: 1px solid black;
+    width: 100%;
+}
+.people{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+}
+.people a{
+    margin-right: 40px;
+}
+.monoxrome .mono-txt h1{
+    font-size: 138px;
+}
+.mono-txt{
+    width: 1160px;
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    padding-top: 90px;
+}
+.monoxrome .mono-txt p{
+    font-size: 18px;
+    font-family: "Manrope-Medium";
+    padding-bottom: 28px;
+}
+.mono-photo{
+    margin-top: 20px;
+}
+.mono-photo .img1{
+    margin-right: 20px;
+}
+.mono-all .nazvanie h2{
+    font-size: 70px;
+    padding: 170px 0  80px 0;
+}
+.photo3{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 165px;
+}
+.photo3 .phot3{
+    margin-right: 35px;
+}
+.photo3 .phot3 h6{
+    font-size: 22px;
+    margin-top: 10px;
+    font-family: "Manrope-Medium";
+}
+.new-collection{
+    height: 1100px;
+    background: url(../assets/img/6.jpg);
+    background-position-y: 0;
+    background-size: cover;
+}
+.new-collection img{
+    width: 1900px;
+    position: absolute;
+    z-index: -10000;
+}
+.new-collection .new-col h2{
+    font-size: 70px;
+    color: #fff;
+}
+.new-collection .new-col{
+    padding-top: 150px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+.new-collection .new-col h6{
+    font-size: 22px;
+    color: #fff;
+    font-family: "Manrope-Regular";
+    width: 700px;
+    margin: 30px 0 40px 0;
+}
+.new-collection .new-col button{
+    width:270px;
+    height: 64px;
+}
+.new-items{
+    margin-top: 165px;
+}
+.new-items h2{
+    font-size: 70px;
+}
+.new-items .winter{
+    padding-left: 450px;
+    margin-bottom: 58px;
+}
+.color-en{
+    grid-template: repeat(2, 220px)/ 1fr 1fr 1fr ;
+    gap: 20px;
+    display: grid;
+}
+.color-en .en p{
+    font-size: 22px;
+    font-family:  "Manrope-Medium";
+    margin-top: 10px;
+}
+.color-en .en:nth-child(1){
+    grid-area: 1 / 1 / 4 / 2;
+}
+.color-en .en:nth-child(3){
+    padding-top: 40px;
+}
+.color-en .en:nth-child(4){
+    grid-area: 1 / 3 / 4 / 4;
+}
+.color-green{
+    padding: 122px 0;
+}
+.green{
+    display: flex;
+    flex-direction: row;
+}
+.green-txt{
+    margin-left: 90px;
+    width: 50%;
+}
+.green-txt .costume h1{
+    font-size: 52px;
+}
+.green-txt .costume h5{
+    margin-top: 10px;
+    font-family: "Manrope-Regular";
+    font-size: 22px;
+}
+.razmer p{
+    font-family: "Manrope-Regular";
+    font-size: 14px;
+}
+.razmer{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    justify-content: space-between;
+}
+.razmer u{
+    font-family: "Manrope-Regular";
+    font-size: 14px;
+    text-decoration: underline;
+}
+.promokod{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+.promokod h3{
+    font-family: "NeutralFaceRegular";
+    font-size: 38px;
+    margin-right: 20px;
+}
+.color-green button h6{
+    font-size: 14px;
+    color: #fff;
+}
+.color-green button{
+    margin-top: 50px;
+    width: 500px;
+    background-color: black;
+    padding: 20px 0 20px 0;
+}
+.green-txt input{
+    border: 1px solid rgb(192, 192, 192);
+    width: 500px;
+    height: 50px;
+    margin-top: 10px;
+}
+select{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    color: rgb(192, 192, 192);
+    font-family: "Manrope-Regular";
+    font-size: 14px;
+    padding: 12px 0 12px 20px;
+    border: 1px solid rgb(190, 190, 190);
+    margin-top: 10px;
+}
+.green-txt .promokod{
+    display: flex;
+    align-items: center;
+}
+.green-txt .promokod input{
+    border: 1px solid rgb(190, 190, 190);
+    width: 310px;
+    height: 50px;
+}
+.green-txt .promokod ::-webkit-input-placeholder{
+    color: rgb(190, 190, 190);
+    font-family: "Manrope-Regular";
+    font-size: 14px;
+    padding: 20px;
+}
+.slider{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.slider u{
+    font-family: "Manrope-Regular";
+    font-size: 14px;
+    color: black
+}
+.slider p{
+    font-family: "Manrope-Regular";
+    font-size: 14px;
+    color: rgb(173, 172, 172);
+}
+.texts{
+    margin-top: 20px;
+}
+.texts p{
+    font-family: "Manrope-Regular";
+    font-size: 16px;
+    color: black 
+}
+.additional-inf{
+    display: flex;
+    flex-direction: row;
+    padding: 100px 0;
+    background-color: black;
+}
+.principles{
+    display: flex;
+    flex-direction: row;
+}
+.principle{
+    width:45%;
+    padding-right: 5%;
+}
+path {
+    fill: white;
+}
+.principle .fa-plane{
+    color: #fff;
+    height: 40px;
+    width: 40px;
+}
+.principle .fa-lock{
+    color: #fff;
+    height: 40px;
+    width: 40px;
+}
+.principle .fa-percent{
+    color: #fff;
+    height: 40px;
+    width: 40px;
+}
+.principle .fa-square-envelope{
+    color: #fff;
+    height: 40px;
+    width: 40px;
+}
+.principle h5{
+    margin-top: 30px;
+    font-size: 16px;
+    margin-bottom: 15px;
+    color: #fff;
+}
+.principle p{
+    font-family: "Manrope-Regular";
+    font-size: 16px;
+    color: #fff;
+}
+.inf-about-of-company{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about-us{
+    display: flex;
+    flex-direction: row;
+    padding: 160px 0 160px 0;
+}
+.about-us h1{
+    font-size: 70px;
+    padding-bottom: 50px;
+}
+.about-us p{
+    font-family: "Manrope-Regular";
+    font-size: 22px; 
+}
+.about-us .text{
+    padding-top: 90px;
+    width: 670px;
+    padding-left: 100px;
+}
+.subscription{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 160px 0 100px 0;
+}
+.subscription h1{
+    font-size: 70px;
+    color: #fff;
+}
+.subscription .newsletter{
+    padding-left: 350px;
+}
+.regestration .article h5{
+    font-family: "Manrope-Regular";
+    font-size: 22px; 
+    color: #fff;
+    width: 600px;
+    margin-bottom: 55px;
+}
+.regestration{
+    display: flex;
+    flex-direction: row;
+    margin-top: 87px;
+}
+.subscription .regestration .regestration-field{
+    margin-left: 100px;
+    width: 50%;
+}
+.subscription .regestration .regestration-field input{
+    border: 1px solid rgb(110, 110, 110);
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    margin: 10px 0 20px 0;
+}
+.subscription .regestration .regestration-field  ::-webkit-input-placeholder{
+    color: rgb(110, 110, 110);
+    font-family: "Manrope-Regular";
+    font-size: 14px;
+    padding-left: 20px;
+}
+.subscription .regestration .regestration-field  p{
+    color: #fff;
+    font-family: "Manrope-Regular";
+    font-size: 14px;
+    padding: 0;
+}
+.subscription .regestration .regestration-field .vibor{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 20px 0;
+  }
+.subscription .regestration .regestration-field .vibor input{
+    width: 20px;
+    height: 20px;
+    margin: 0 15px;
+}
+.subscription .regestration .regestration-field .vibor .radio-1{
+    margin-left: 0px;
+}
+input[type='radio'] {
+    accent-color: rgb(255, 255, 255);
+    width: 10px;
+    height: 10px;
+    background: transparent;
+  } 
+  .subscription .regestration .regestration-field .checkbox{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .subscription .regestration .regestration-field .checkbox p{
+    font-size: 15px;
+    color: #fff;
+    margin-left: 15px;
+  }
+  
+  .subscription .regestration .regestration-field .checkbox input{
+    accent-color: rgb(255, 255, 255);
+    background-color: black;
+    width: 20px;
+    height: 20px;
+  }
+  .subscription .regestration .regestration-field button{
+    background-color: #fff;
+    width: 100%;
+    padding: 20px 0 20px 0;
+    margin-top: 30px;
+  }
+  footer{
+    background-color: black;
+  }
+  footer .line{
+    border-bottom: 1px solid #fff;
+    width: 100%;
+  }
+  .footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 100px 0;
+  }
+  .footer .mono p{
+    font-family: "Manrope-Regular";
+    font-size: 12px;
+    color: #fff;
+  }
+  .footer .privacy-policy a{
+    text-decoration: underline;
+    font-family: "Manrope-Regular";
+    font-size: 12px;
+    color: #fff;
+  }
+  @media (max-width: 1140px) {
+    .container {
+        width: 720px;
+    }
+    .monoxrome .mono-txt h1{
+        font-size: 100px;
+    }
+}
